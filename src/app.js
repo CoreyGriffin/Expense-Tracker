@@ -11,9 +11,6 @@ import './styles/styles.scss';
  
 const reduxStore = store();
 
-reduxStore.subscribe(() => {
-})
-
 const jsx = (
   <Provider store={reduxStore}>
    <AppRouter />
